@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* setting body width for white space */
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+hr {
+	margin: 2% auto;
+}
+/* Header and nav */
+header{
+	display: flex;
+}
+nav {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: fixed;
+	margin: 0 auto 2%;
+}
+nav a:link {
+	
+	text-decoration: none;
+	color: gray;
+}
+/* sections will use diplay flex */
+ section {
+	display: flex;
+	/* align-items: stretch; */
+} 
+/* title section */
+.title {
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 50vh;
+}
+.title div {
+	padding: 15%;
+	width: 50%;
+	font-size: 500%;	
+	text-align: center;
+	margin: 0;
+}
+.title div button {
+	width: 12em;
+	background-color: white;
+	padding: 10px 50px;
+}
+/* body class used to fix size 
+	of the second section*/
+.body { 
+	display: flex;
+}
+/* features and about */
+.body div {
+	height: 25%;
+	font-size: 125%;
+	margin: 0 10px auto;
+}
+
+.middle-img {
+	width: 100%;
+	/* height: auto; */
+}
+
+.contact {
+    text-justify: left;
+}
+
+footer {
+    margin: 5% 0;
+    text-align: center;
+}
+/* Servicces page starts here */
+/* nav section carries over from index
+	 */
+ul li {
+	list-style-type: initial;
+}
+
+.services {
+	flex-wrap: wrap;
+}
+.two-column {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+}
+.two-column section {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightgray;
+	/* justify-content: stretch; */
+	width: 49%;
+	margin: .5%;
+	padding: .5%;
+	border : 1px solid black;
+}
+button {
+	background-color: ghostwhite;
+	border-radius: 5px;
+	padding: .5%;
+	margin: .5%;
+}
+div .facts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 47%;
+}
+.bottom {
+	/* flex-wrap: nowrap; */
+	display: flex;
+	padding : .5%;
+	margin: .5%;
+}
+.services-info-img {
+	padding: .5%;
+	margin: .5%;
+	width: 49%;
+	
+}
