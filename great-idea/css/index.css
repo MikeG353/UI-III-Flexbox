@@ -94,7 +94,7 @@ nav a:link {
 /* sections will use diplay flex */
  section {
 	display: flex;
-	align-items: stretch;
+	/* align-items: stretch; */
 } 
 /* title section */
 .title {
@@ -131,9 +131,7 @@ nav a:link {
 	width: 100%;
 	/* height: auto; */
 }
-.services {
-	flex-wrap: wrap;
-}
+
 .contact {
     text-justify: left;
 }
@@ -143,8 +141,45 @@ footer {
     text-align: center;
 }
 /* Servicces page starts here */
+/* nav section carries over from index
+	 */
 ul li {
 	list-style-type: initial;
 }
+
 .services {
 	flex-wrap: wrap;
+}
+.two-column {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+}
+.two-column section {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightgray;
+	/* justify-content: stretch; */
+	width: 49%;
+	margin: .5%;
+	padding: .5%;
+	border : 1px solid black;
+}
+button {
+	background-color: ghostwhite;
+	padding: .5%;
+	margin: .5%;
+}
+div .facts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 49%;
+}
+.bottom {
+	flex-wrap: nowrap;
+	padding : .5%;
+	margin: .5%;
+}
+.services-info-img {
+	width: 49%;
+}
