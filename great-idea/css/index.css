@@ -167,19 +167,24 @@ ul li {
 }
 button {
 	background-color: ghostwhite;
+	border-radius: 5px;
 	padding: .5%;
 	margin: .5%;
 }
 div .facts {
 	display: flex;
 	flex-wrap: wrap;
-	width: 49%;
+	width: 47%;
 }
 .bottom {
-	flex-wrap: nowrap;
+	/* flex-wrap: nowrap; */
+	display: flex;
 	padding : .5%;
 	margin: .5%;
 }
 .services-info-img {
+	padding: .5%;
+	margin: .5%;
 	width: 49%;
+	
 }
